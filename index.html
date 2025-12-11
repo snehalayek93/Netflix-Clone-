@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India — Watch TV Shows Online, Watch Movies Online</title>
+
+    <!-- Your CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Correct Font Awesome CDN -->
+    <link rel="stylesheet" href="cdnjs.cloudflare.com">
+
+    <!-- Optional: Add the Poppins font link if not already linked in CSS -->
+    <link href="fonts.googleapis.com" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+
+            <div class="navbar_netflix">
+                <!-- Ensure you have a 'logo.png' file -->
+                <img src="logo.png" alt="logo" class="netflix_logo">
+            </div>
+
+            <div class="navbar_nav_items">
+                <div class="nav_item">
+                    <div class="dropdown_container">
+                        <i class="fa-solid fa-globe"></i>
+                        <select name="languages" id="languageSelect" class="language_drop_down">
+                            <option value="english" selected>English</option>
+                            <option value="hindi">Hindi</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="nav_item">
+                    <button class="signin_button" id="signInButton">Sign In</button>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class ="hero_bg_image_container">
+                <!-- Ensure you have a 'background image.jpg' file -->
+                <img src="background image.jpg" alt="background image" class="hero_bg_image">
+            </div>
+            <div class="hero_bg_overlay">
+            </div>
+            <div class="hero_card">
+                <h1 class="hero_title">
+                    Unlimited movies, shows,<br> and more</h1>
+                    <h2 class="hero_subtitle">Starts at ₹149. Cancel at any time.</h2>
+                    <p class="hero_description"><nobr>Ready to watch? Enter your email to create or restart your membership.</nobr> <br><br>
+                        <nobr>
+                            <input type="email" placeholder="Email address" class="email" id="emailInput">
+                            <button class="get_started" id="getStartedButton">Get Started ></button>
+                        </nobr>
+</p>
+            </div>
+
+        </section>
+      <section class="style-cards">
+
+    <!-- CARD 1 -->
+    <div class="card-1">
+        <div class="desc-1">
+            <h1>Enjoy on your TV.</h1>
+            <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast,
+            Apple TV, Blu-ray players and more.</h3>
+        </div>
+        <div class="tv-container">
+
+
+
+            <video class="tv-video" autoplay muted loop playsinline>
+                <source src="video tv.m4v" type="video/mp4">
+            </video>
+        </div>
+    </div> <!-- End of card-1 -->
+
+    <!-- CARD 2: Download section -->
+    <div class="card-2">
+        <div class="desc-2-img-container">
+             <!-- Ensure you have a 'mobile.jpg' file -->
+            <img src="mobile.jpg" alt="Netflix Mobile">
+        </div>
+        <div class="desc-2">
+             <h1>Download your shows <br>to watch offline.</h1>
+             <h3>Save your favourites easily and always have <br>something to watch.</h3>
+        </div>
+    </div> <!-- End of card-2 -->
+
+
+    <!-- CARD 3: Watch everywhere section -->
+    <div class="card-3">
+        <div class="desc-3">
+            <h1>Watch everywhere.</h1>
+            <h3>Stream unlimited movies and TV shows on <br>your phone, tablet, laptop, and TV</h3>
+        </div>
+        <div class="desc-3-media">
+             <!-- Ensure you have 'device tv 2.png' and 'video-devices-in.m4v' files -->
+             <img src="device tv 2.png" alt="Device">
+             <video class="video-2" autoplay="" playsinline="" muted="" loop="">
+                 <source src="video-devices-in.m4v" type="video/m4v">
+             </video>
+        </div>
+    </div> <!-- End of card-3 -->
+
+</section>
+
+    </main>
+
+<footer class="footer">
+    <p>Questions? Call 000-800-040-1843</p>
+    <div class="footer-cols">
+        <ul>
+            <li>FAQ</li>
+            <li>Investor Relations</li>
+            <li>Privacy</li>
+            <li>Speed Test</li>
+        </ul>
+        <ul>
+            <li>Help Centre</li>
+             <li>jobs</li>
+              <li>Cookie Preferences</li>
+               <li>Legal Notices</li>
+        </ul>
+<ul>
+    <li>Accounts</li>
+     <li>Ways to watch</li>
+      <li>Corporate Information</li>
+       <li>Only on Netflix</li>
+</ul>
+<ul>
+    <li>Media Centre</li>
+     <li>Terms Of Use</li>
+      <li>Contact Us</li>
+       <li>Speed Test</li>
+</ul>
+    </div>
+</footer>
+
+<!-- Link the JavaScript file at the end of the body -->
+<script src="script.js"></script>
+
+</body>
+</html>
